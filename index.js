@@ -1,7 +1,12 @@
+// Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.
+
 module.exports = {
   extends: [
     'eslint-config-airbnb',
   ].map(require.resolve),
+  plugins: [
+    'header',
+  ],
   rules: {
     eqeqeq: [
       2,
@@ -52,6 +57,11 @@ module.exports = {
       'never',
     ],
     'vars-on-top': 0,
+    'header/header': [
+      2,
+      'line',
+      ' Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.',
+    ],
   },
   globals: {
     __DEV__: false,
