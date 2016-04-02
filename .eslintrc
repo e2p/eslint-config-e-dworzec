@@ -1,0 +1,4 @@
+--- # Lint configuration in YAML
+  extends: "./index.js"
+
+# Running manually: npm run lint

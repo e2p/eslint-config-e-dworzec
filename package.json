@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-e-dworzec",
+  "version": "1.0.0",
+  "description": "ESLint config for e-dworzec, following our styleguide",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-dworzec/eslint-config-e-dworzec.git"
+  },
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/e-dworzec/eslint-config-e-dworzec/issues"
+  },
+  "homepage": "https://github.com/e-dworzec/eslint-config-e-dworzec#readme",
+  "dependencies": {
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "devDependencies": {
+    "e-dworzec-arcanist": "e2p/e-dworzec-arcanist#223d078",
+    "jest-cli": "^0.10.0"
+  }
+}

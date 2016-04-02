@@ -1,0 +1,16 @@
+{
+  "linters": {
+    "json": {
+      "type": "json",
+      "include": "(\\.json$)"
+    },
+    "flow": {
+      "type": "flow",
+      "include": ["(\\.js$)", "(\\.flowconfig$)"]
+    },
+    "eslint": {
+      "type": "eslint",
+      "include": "(\\.js$)"
+    }
+  }
+}

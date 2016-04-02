@@ -1,0 +1,8 @@
+{
+  "phabricator.uri" : "http://dev.hagmajer.com/",
+  "repository.callsign": "EDLINT",
+  "load": [
+    "node_modules/e-dworzec-arcanist/src"
+  ],
+  "unit.engine": "ArcanistConfigurationDrivenUnitTestEngine"
+}
