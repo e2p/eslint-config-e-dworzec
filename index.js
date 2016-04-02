@@ -1,3 +1,4 @@
+// @flow
 // Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.
 
 module.exports = {
@@ -60,7 +61,10 @@ module.exports = {
     'header/header': [
       2,
       'line',
-      ' Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.',
+      [
+        ' @flow',
+        ' Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.',
+      ],
     ],
   },
   globals: {
