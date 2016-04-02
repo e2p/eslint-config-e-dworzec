@@ -52,7 +52,6 @@ module.exports = {
       'never',
     ],
     'vars-on-top': 0,
-    strict: 0,
   },
   globals: {
     __DEV__: false,
