@@ -19,17 +19,19 @@
   },
   "homepage": "https://github.com/e-dworzec/eslint-config-e-dworzec#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^6.2.0"
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^2.6.0",
+    "eslint": "^2.10.1",
     "e-dworzec-arcanist": "e2p/e-dworzec-arcanist#223d078",
     "eslint-plugin-header": "^0.1.0",
-    "eslint-plugin-react": "^4.2.3",
-    "jest-cli": "^0.10.0"
+    "eslint-plugin-react": "^5.1.1",
+    "jest-cli": "^12.0.2"
   },
   "peerDependencies": {
     "eslint-plugin-header": "^0.1.0",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-plugin-react": "^5.1.1"
   }
 }
