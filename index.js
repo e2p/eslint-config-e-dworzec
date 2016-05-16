@@ -66,6 +66,20 @@ module.exports = {
         ' Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.',
       ],
     ],
+    'react/prefer-stateless-function': 0,
+    'import/no-unresolved': 0,
+    curly: [
+      2,
+      'all',
+    ],
+    'no-underscore-dangle': [
+      'error',
+      {
+        allowAfterThis: true,
+      },
+    ],
+    'import/no-duplicates': 0,
+    'no-duplicate-imports': 0,
   },
   globals: {
     __DEV__: false,
