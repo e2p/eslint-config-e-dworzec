@@ -13,23 +13,22 @@
     "lint": "eslint .",
     "test": "jest"
   },
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/e-dworzec/eslint-config-e-dworzec/issues"
   },
   "homepage": "https://github.com/e-dworzec/eslint-config-e-dworzec#readme",
   "dependencies": {
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.0",
-    "eslint-plugin-jsx-a11y": "^1.2.0"
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2"
   },
   "devDependencies": {
     "e-dworzec-arcanist": "e2p/e-dworzec-arcanist#223d078",
-    "eslint": "^2.10.1",
+    "eslint": "^2.11.0",
     "eslint-plugin-header": "^0.1.0",
     "eslint-plugin-react": "^5.1.1",
-    "flow-bin": "^0.22.1",
-    "jest-cli": "^12.0.2"
+    "flow-bin": "^0.26.0",
+    "jest-cli": "^12.1.1"
   },
   "peerDependencies": {
     "eslint-plugin-header": "^0.1.0",
