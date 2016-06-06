@@ -9,55 +9,11 @@ module.exports = {
     'header',
   ],
   rules: {
-    eqeqeq: [
+    curly: [
       2,
-      'allow-null',
+      'all',
     ],
     'func-names': 0,
-    indent: [
-      2,
-      2,
-      {
-        SwitchCase: 1,
-      },
-    ],
-    'no-alert': 0,
-    'no-nested-ternary': 0,
-    'no-shadow': 0,
-    'no-undef': 0,
-    'no-unused-vars': [
-      2,
-      {
-        args: 'none',
-      },
-    ],
-    'no-use-before-define': 0,
-    'no-param-reassign': [
-      2,
-      {
-        props: false,
-      },
-    ],
-    'prefer-arrow-callback': 0,
-    'react/jsx-no-bind': [
-      2,
-      {
-        allowArrowFunctions: true,
-        allowBind: true,
-      },
-    ],
-    'react/jsx-closing-bracket-location': 0,
-    'react/no-multi-comp': 0,
-    'react/jsx-no-undef': 0,
-    'react/prop-types': 0,
-    'react/react-in-jsx-scope': 0,
-    'react/sort-comp': 0,
-    'react/wrap-multilines': 0,
-    'space-before-function-paren': [
-      2,
-      'never',
-    ],
-    'vars-on-top': 0,
     'header/header': [
       2,
       'line',
@@ -66,27 +22,39 @@ module.exports = {
         ' Copyright (c) 2015-present, Early2Pay Sp. z o.o. All rights reserved.',
       ],
     ],
-    'react/prefer-stateless-function': 0,
-    'import/no-unresolved': 0,
-    curly: [
+    'import/no-duplicates': 0, // flow needs to imports types
+    'import/no-unresolved': 0, // flow checks this
+    indent: [
       2,
-      'all',
+      2,
+      {
+        SwitchCase: 1,
+      },
     ],
+    'no-duplicate-imports': 0, // flow needs to import types
+    'no-param-reassign': 2,
+    'no-shadow': 0,
     'no-underscore-dangle': [
       'error',
       {
         allowAfterThis: true,
       },
     ],
-    'import/no-duplicates': 0,
-    'no-duplicate-imports': 0,
+    'react/no-multi-comp': 0,
+    'react/prop-types': 0,
+    'react/sort-comp': 0,
+    'react/jsx-no-bind': 0, // ES6 classes do not autobind methods
+    'react/wrap-multilines': 0,
+    'vars-on-top': 0,
   },
   globals: {
-    __DEV__: false,
     $Diff: false,
     $Keys: false,
     $Shape: false,
     Class: false,
     ReactClass: false,
+    SyntheticDragEvent: false,
+    SyntheticEvent: false,
+    SyntheticKeyboardEvent: false,
   },
 };
