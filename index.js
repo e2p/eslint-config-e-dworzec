@@ -40,6 +40,12 @@ module.exports = {
         allowAfterThis: true,
       },
     ],
+    'no-unused-vars': [2, { // flow needs argument definitions
+      args: 'none',
+      vars: 'local',
+    }],
+    'no-use-before-define': 0,
+    'prefer-arrow-callback': 0, // breaks Flow ability to place ? before arguments
     'react/no-multi-comp': 0,
     'react/prop-types': 0,
     'react/sort-comp': 0,
