@@ -33,6 +33,13 @@ module.exports = {
     ],
     'no-duplicate-imports': 0, // flow needs to import types
     'no-param-reassign': 2,
+    'no-restricted-syntax': [
+      2,
+      'DebuggerStatement',
+      // 'ForInStatement', // Flow issues with Object.keys
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-shadow': 0,
     'no-underscore-dangle': [
       'error',
