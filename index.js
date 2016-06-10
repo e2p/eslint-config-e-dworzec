@@ -6,6 +6,7 @@ module.exports = {
     'eslint-config-airbnb',
   ].map(require.resolve),
   plugins: [
+    'babel',
     'header',
   ],
   rules: {
@@ -59,6 +60,8 @@ module.exports = {
     'react/jsx-no-bind': 0, // ES6 classes do not autobind methods
     'react/wrap-multilines': 0,
     'vars-on-top': 0,
+    'babel/no-await-in-loop': 2,
+    'babel/flow-object-type': [2, 'comma'],
   },
   globals: {
     $Diff: false,
