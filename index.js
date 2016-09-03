@@ -57,7 +57,6 @@ module.exports = {
     'react/no-multi-comp': 0,
     'react/prop-types': 0,
     'react/sort-comp': 0,
-    'react/jsx-no-bind': 0, // ES6 classes do not autobind methods
     'react/wrap-multilines': 0,
     'vars-on-top': 0,
     'babel/no-await-in-loop': 2,
