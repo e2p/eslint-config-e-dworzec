@@ -7,6 +7,7 @@ module.exports = {
   ].map(require.resolve),
   plugins: [
     'babel',
+    'flowtype',
     'header',
   ],
   rules: {
@@ -60,7 +61,7 @@ module.exports = {
     'react/wrap-multilines': 0,
     'vars-on-top': 0,
     'babel/no-await-in-loop': 2,
-    'babel/flow-object-type': [2, 'comma'],
+    'flowtype/object-type-delimiter': [2, 'comma'],
   },
   globals: {
     $Diff: false,
