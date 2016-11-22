@@ -58,10 +58,12 @@ module.exports = {
     'react/no-multi-comp': 0,
     'react/prop-types': 0,
     'react/sort-comp': 0,
-    'react/wrap-multilines': 0,
     'vars-on-top': 0,
     'babel/no-await-in-loop': 2,
     'flowtype/object-type-delimiter': [2, 'comma'],
+    'class-methods-use-this': 0,
+    'import/newline-after-import': 0,
+    'no-prototype-builtins': 0,
   },
   globals: {
     $Diff: false,
