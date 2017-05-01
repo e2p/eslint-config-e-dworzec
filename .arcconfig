@@ -1,5 +1,5 @@
 {
-  "phabricator.uri" : "http://dev.hagmajer.com/",
+  "phabricator.uri" : "https://early2pay.phacility.com/",
   "repository.callsign": "EDLINT",
   "load": [
     "node_modules/e-dworzec-arcanist/src"
